@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="KwetterEE:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/KwetterEE_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="KwetterEE/javaeeApplication/javaEEApplication" />
+      <element id="directory" name="web.war">
+        <element id="artifact" artifact-name="KwetterEE:war exploded" />
+      </element>
+      <element id="directory" name="ejb.jar">
+        <element id="artifact" artifact-name="KwetterEE:ejb exploded" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="JPA 2.0-2.0" />
+      </element>
+    </root>
+  </artifact>
+</component>
