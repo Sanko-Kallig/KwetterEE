@@ -30,8 +30,8 @@ public class KweetTest {
         kweet2 = new Kweet(2, "HEY EVERYBODY", user2);
         kweet3 = new Kweet(3, "Excuse me for the shouting.", user2);
         kweet4 = new Kweet();
-        kweet1.setLikers(user1);
-        kweet1.setLikers(user2);
+        kweet1.addLiker(user1);
+        kweet1.addLiker(user2);
         date = Calendar.getInstance();
     }
 
@@ -76,13 +76,8 @@ public class KweetTest {
 
     @Test
     public void addLiker() throws Exception {
-        kweet1.setLikers(user3);
+        kweet1.addLiker(user3);
         Assert.assertEquals("Kweet1 didn't get another liker.", 3, kweet1.getLikers().size());
-    }
-
-    @Test(expected = Exception.class)
-    public void addExistingLikerException() throws Exception {
-        kweet1.setLikers(user1);
     }
 
 

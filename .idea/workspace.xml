@@ -2,42 +2,88 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="KwetterEE:war exploded" />
+      <artifact name="KwetterEE:ear exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41546c32-31b3-42cf-b795-7e070ff922d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/KwetterEE_ear_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/KwetterEE_ejb_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/KwetterEE_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/056c3198-15a2-43c9-884f-71fd0fd71185.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/JPA_2_0_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__Arquillian_JUnit_Release.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KwetterEE.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/META-INF/application.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MyApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Kweet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Relation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/GroupTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/KweetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/RelationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/UserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_resource_jakarta_resource_api_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_persistence_commonj_sdo_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_persistence_eclipselink_2_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_persistence_jakarta_persistence_2_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_persistence_org_eclipse_persistence_antlr_2_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_persistence_org_eclipse_persistence_asm_2_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_persistence_org_eclipse_persistence_core_2_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_persistence_org_eclipse_persistence_dbws_2_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_persistence_org_eclipse_persistence_jpa_2_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_persistence_org_eclipse_persistence_jpa_jpql_2_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_persistence_org_eclipse_persistence_jpa_modelgen_processor_2_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_persistence_org_eclipse_persistence_jpars_2_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_persistence_org_eclipse_persistence_moxy_2_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_persistence_org_eclipse_persistence_nosql_2_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_persistence_org_eclipse_persistence_oracle_2_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_persistence_org_eclipse_persistence_oracle_nosql_2_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_persistence_org_eclipse_persistence_sdo_2_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_25_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/KweetDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/RelationDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/IKweetDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/IKweetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/IModService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/IRelationDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/IUserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/KweetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/ModService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/interfaces/IKweetServiceTestIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/interfaces/IUserServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/interfaces/ResetDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/glassfish-resources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/056c3198-15a2-43c9-884f-71fd0fd71185.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/056c3198-15a2-43c9-884f-71fd0fd71185.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KwetterEE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/KwetterEE.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/META-INF/application.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.persistence.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KwetterEE_ear_exploded/META-INF/application.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KwetterEE_ear_exploded/ejb.jar/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/KwetterEE_ear_exploded/ejb.jar/HelloWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KwetterEE_ear_exploded/ejb.jar/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/KwetterEE_ear_exploded/ejb.jar/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KwetterEE_ear_exploded/ejb.jar/MyApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KwetterEE_ear_exploded/web.war/WEB-INF/classes/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/KwetterEE_ear_exploded/web.war/WEB-INF/classes/HelloWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KwetterEE_ear_exploded/web.war/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/KwetterEE_ear_exploded/web.war/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KwetterEE_ear_exploded/web.war/WEB-INF/classes/MyApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KwetterEE_ejb_exploded/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/KwetterEE_ejb_exploded/HelloWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KwetterEE_ejb_exploded/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/KwetterEE_ejb_exploded/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KwetterEE_ejb_exploded/MyApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KwetterEE_war_exploded/WEB-INF/classes/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/KwetterEE_war_exploded/WEB-INF/classes/HelloWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KwetterEE_war_exploded/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/KwetterEE_war_exploded/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KwetterEE_war_exploded/WEB-INF/classes/MyApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/UserGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Kweet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Kweet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/GroupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/GroupTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/KweetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/KweetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MyApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/Group.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/Kweet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/models/Kweet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/models/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/models/GroupTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/models/GroupTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/models/KweetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/models/KweetTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/models/UserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/models/UserTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,9 +97,9 @@
     <option name="SHOW_INTERMEDIATE" value="true" />
     <option name="GROUP_DATA_SOURCES" value="true" />
     <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
+    <option name="GROUP_CONTENTS" value="true" />
     <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="true" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
     <option name="HIDDEN_KINDS">
       <set />
@@ -61,18 +107,59 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="kwetter@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="Kwetter" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="kwetter@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="Kwetter" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="kwetter@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="Kwetter" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="kwetter: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Kwetter" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="kwetter: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Kwetter" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="kwetter: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="user: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Kwetter" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="kwetter: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="usergroup: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Kwetter" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="kwetter: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="usergroup: table" type="285a2a93:MysqlImplModel$Table" />
+        <item name="columns" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Kwetter" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="kwetter: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="usergroup: table" type="285a2a93:MysqlImplModel$Table" />
+        <item name="keys" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
     </expand>
     <select />
@@ -83,10 +170,26 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/models/UserTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/services/KweetService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-39">
-              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+            <state relative-caret-position="134">
+              <caret line="70" column="32" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#389#390#0" expanded="true" />
+                <element signature="e#427#428#0" expanded="true" />
+                <element signature="e#2714#2715#0" expanded="true" />
+                <element signature="e#2761#2762#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/interfaces/IUserServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2193">
+              <caret line="131" column="27" lean-forward="true" selection-start-line="131" selection-start-column="27" selection-end-line="131" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,10 +198,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/models/Kweet.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/services/ModService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+            <state relative-caret-position="323">
+              <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1277#1278#0" expanded="true" />
+                <element signature="e#1472#1473#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/services/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,28 +224,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/models/KweetTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/IUserDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/models/Group.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/models/GroupTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,36 +236,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/models/Relation.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/interfaces/IKweetServiceTestIT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+            <state relative-caret-position="521">
+              <caret line="93" column="30" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1368#1375#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/models/RelationTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/models/Kweet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/models/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-213">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MyApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="409">
+              <caret line="72" column="35" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -175,9 +261,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/HelloWorld.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/IKweetService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="272">
+              <caret line="16" column="12" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/IKweetDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DAO/KweetDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -190,10 +298,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Arquillian JUnit Test Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>${eclipselink.version}</find>
+      <find>mode</find>
+      <find>javax</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -211,23 +329,46 @@
         <option value="$PROJECT_DIR$/src/test/KweetTest.java" />
         <option value="$PROJECT_DIR$/src/main/models/Kweet.java" />
         <option value="$PROJECT_DIR$/src/main/models/User.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/models/Group.java" />
         <option value="$PROJECT_DIR$/src/main/models/Relation.java" />
         <option value="$PROJECT_DIR$/src/test/java/KweetTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Relation.java" />
-        <option value="$PROJECT_DIR$/src/test/java/models/GroupTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/models/RelationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interfaces/IRelationDAO.java" />
+        <option value="$PROJECT_DIR$/src/test/java/interfaces/ResetDB.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/glassfish-resources.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/interfaces/IUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/UserController.java" />
+        <option value="$PROJECT_DIR$/src/test/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Group.java" />
+        <option value="$PROJECT_DIR$/src/test/java/models/GroupTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/models/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/UserService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/models/UserTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DAO/RelationDAO.java" />
+        <option value="$PROJECT_DIR$/src/test/java/interfaces/IUserServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/KweetService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DAO/KweetDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/ModService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DAO/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/UserGroup.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Kweet.java" />
         <option value="$PROJECT_DIR$/src/test/java/models/KweetTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interfaces/IKweetDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interfaces/IKweetService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/interfaces/IKweetServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interfaces/IUserDAO.java" />
+        <option value="$PROJECT_DIR$/src/test/java/interfaces/IKweetServiceTestIT.java" />
       </list>
     </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
@@ -239,22 +380,40 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="KwetterEE" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="KwetterEE" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="KwetterEE" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
+    <option name="x" value="117" />
+    <option name="y" value="-10" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -270,11 +429,6 @@
             <path>
               <item name="KwetterEE" type="b2602c69:ProjectViewProjectNode" />
               <item name="KwetterEE" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KwetterEE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KwetterEE" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -295,6 +449,74 @@
               <item name="KwetterEE" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="DAO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KwetterEE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KwetterEE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KwetterEE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KwetterEE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KwetterEE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KwetterEE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KwetterEE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KwetterEE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KwetterEE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KwetterEE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KwetterEE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KwetterEE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KwetterEE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KwetterEE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KwetterEE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KwetterEE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KwetterEE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KwetterEE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -302,29 +524,37 @@
               <item name="KwetterEE" type="b2602c69:ProjectViewProjectNode" />
               <item name="KwetterEE" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KwetterEE" type="b2602c69:ProjectViewProjectNode" />
               <item name="KwetterEE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KwetterEE" type="b2602c69:ProjectViewProjectNode" />
               <item name="KwetterEE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KwetterEE" type="b2602c69:ProjectViewProjectNode" />
               <item name="KwetterEE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KwetterEE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KwetterEE" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KwetterEE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KwetterEE" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KwetterEE" type="b2602c69:ProjectViewProjectNode" />
@@ -335,7 +565,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -346,25 +575,35 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552851145295" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552929914863" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="dynamic.classpath" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/cmd/git.exe" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/JEA-JPA-Demo/04b-ESW-JPA-Demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.16210938" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="project.structure.side.proportion" value="0.34265736" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="interfaces" />
       <recent name="models" />
       <recent name="main.models" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sanko\IdeaProjects\KwetterEE\src\test\java" />
+      <recent name="C:\Users\Sanko\IdeaProjects\KwetterEE\src\main\resources" />
+      <recent name="C:\Users\Sanko\IdeaProjects\KwetterEE\src\test" />
+      <recent name="C:\Users\Sanko\IdeaProjects\KwetterEE\src\main\java" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -372,8 +611,8 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Sanko\IdeaProjects\KwetterEE\src\main\java" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sanko\IdeaProjects\KwetterEE\src\test\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -388,13 +627,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in KwetterEE">
+  <component name="RunManager" selected="JUnit.IKweetServiceTestIT">
     <configuration name="GlassFish 5.184.0" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.184.0" ALTERNATIVE_JRE_ENABLED="false" show_console_on_std_err="true" show_console_on_std_out="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/helloworld" />
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="KwetterEE:war exploded">
+        <artifact name="KwetterEE:ear exploded">
           <settings />
         </artifact>
       </deployment>
@@ -458,59 +697,102 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="KwetterEE:war exploded" />
+          <artifact name="KwetterEE:ear exploded" />
         </option>
       </method>
     </configuration>
-    <configuration name="All in KwetterEE" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="KwetterEE" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KweetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IKweetServiceIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KwetterEE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="models.*" />
+          <option name="PATTERN" value="interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="models" />
-      <option name="MAIN_CLASS_NAME" value="models.KweetTest" />
+      <option name="PACKAGE_NAME" value="interfaces" />
+      <option name="MAIN_CLASS_NAME" value="interfaces.IKweetServiceIT" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IKweetServiceTestIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KwetterEE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="models.*" />
+          <option name="PATTERN" value="interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="models" />
-      <option name="MAIN_CLASS_NAME" value="models.UserTest" />
+      <option name="PACKAGE_NAME" value="interfaces" />
+      <option name="MAIN_CLASS_NAME" value="interfaces.IKweetServiceTestIT" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IUserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KwetterEE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="interfaces" />
+      <option name="MAIN_CLASS_NAME" value="interfaces.IUserServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IUserServiceTest.createUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KwetterEE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="interfaces" />
+      <option name="MAIN_CLASS_NAME" value="interfaces.IUserServiceTest" />
+      <option name="METHOD_NAME" value="createUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IUserServiceTest.updateUserChangeGroupNameException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KwetterEE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="interfaces" />
+      <option name="MAIN_CLASS_NAME" value="interfaces.IUserServiceTest" />
+      <option name="METHOD_NAME" value="updateUserChangeGroupNameException" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="GlassFish Server.GlassFish 5.184.0" />
-      <item itemvalue="JUnit.KweetTest" />
-      <item itemvalue="JUnit.UserTest" />
-      <item itemvalue="JUnit.All in KwetterEE" />
+      <item itemvalue="JUnit.IUserServiceTest" />
+      <item itemvalue="JUnit.IUserServiceTest.createUser" />
+      <item itemvalue="JUnit.IUserServiceTest.updateUserChangeGroupNameException" />
+      <item itemvalue="JUnit.IKweetServiceIT" />
+      <item itemvalue="JUnit.IKweetServiceTestIT" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in KwetterEE" />
-        <item itemvalue="JUnit.UserTest" />
-        <item itemvalue="JUnit.KweetTest" />
+        <item itemvalue="JUnit.IKweetServiceTestIT" />
+        <item itemvalue="JUnit.IKweetServiceIT" />
+        <item itemvalue="JUnit.IUserServiceTest" />
+        <item itemvalue="JUnit.IUserServiceTest.updateUserChangeGroupNameException" />
+        <item itemvalue="JUnit.IUserServiceTest.createUser" />
       </list>
     </recent_temporary>
   </component>
@@ -525,7 +807,8 @@
       <option name="presentableId" value="Default" />
       <updated>1552835584687</updated>
       <workItem from="1552835591204" duration="1209000" />
-      <workItem from="1552836869316" duration="10408000" />
+      <workItem from="1552836869316" duration="34869000" />
+      <workItem from="1552904161203" duration="12285000" />
     </task>
     <task id="LOCAL-00001" summary="Starting commit">
       <created>1552850866258</created>
@@ -534,24 +817,56 @@
       <option name="project" value="LOCAL" />
       <updated>1552850866258</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Starting commit">
+      <created>1552851139786</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552851139786</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserTest - 2019.03.17 at 20h 15m 06s.xml">
-      <configuration name="UserTest" configurationId="JUnit" />
+    <history-entry file="IUserServiceTest - 2019.03.18 at 13h 09m 31s.xml">
+      <configuration name="IUserServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_KwetterEE - 2019.03.17 at 20h 19m 41s.xml">
-      <configuration name="All in KwetterEE" configurationId="JUnit" />
+    <history-entry file="IUserServiceTest - 2019.03.18 at 13h 15m 13s.xml">
+      <configuration name="IUserServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IUserServiceTest - 2019.03.18 at 13h 15m 58s.xml">
+      <configuration name="IUserServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IUserServiceTest - 2019.03.18 at 13h 19m 03s.xml">
+      <configuration name="IUserServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IUserServiceTest - 2019.03.18 at 13h 22m 48s.xml">
+      <configuration name="IUserServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IUserServiceTest - 2019.03.18 at 13h 25m 22s.xml">
+      <configuration name="IUserServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IUserServiceTest - 2019.03.18 at 13h 28m 05s.xml">
+      <configuration name="IUserServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IUserServiceTest - 2019.03.18 at 13h 49m 43s.xml">
+      <configuration name="IUserServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IUserServiceTest - 2019.03.18 at 13h 52m 17s.xml">
+      <configuration name="IUserServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IUserServiceTest - 2019.03.18 at 18h 13m 07s.xml">
+      <configuration name="IUserServiceTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11617000" />
+    <option name="totallyTimeSpent" value="48363000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8706468" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8665568" visible="true" weight="0.24626866" />
       <window_info id="Structure" order="1" sideWeight="0.50080776" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" sideWeight="0.50080776" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="3" />
@@ -561,34 +876,77 @@
       <window_info id="Favorites" order="7" sideWeight="0.50080776" side_tool="true" weight="0.25" />
       <window_info id="EJB" order="8" sideWeight="0.50080776" side_tool="true" weight="0.25" />
       <window_info id="JavaEE:App" order="9" sideWeight="0.50080776" side_tool="true" weight="0.25" />
-      <window_info id="Web" order="10" sideWeight="0.12935324" side_tool="true" visible="true" weight="0.25266525" />
-      <window_info anchor="bottom" id="Inspection Results" sideWeight="0.49946696" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4968017" weight="0.32555556" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.49733475" weight="0.3288889" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.3288889" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" visible="true" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49520257" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="14" sideWeight="0.49946696" visible="true" />
+      <window_info id="Web" order="10" sideWeight="0.13432837" side_tool="true" weight="0.24626866" />
+      <window_info anchor="bottom" id="Database Console" order="0" sideWeight="0.49946696" />
+      <window_info anchor="bottom" id="Inspection Results" order="1" sideWeight="0.4989339" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" sideWeight="0.4989339" />
+      <window_info anchor="bottom" id="SQL Generator" order="4" sideWeight="0.49840087" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.8726013" weight="0.32555556" />
+      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.49253732" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Application Servers" order="10" sideWeight="0.49520257" weight="0.3288889" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.12739871" side_tool="true" weight="0.32555556" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.4989339" weight="0.3288889" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.45042643" visible="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="17" sideWeight="0.49946696" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="CDI" order="5" visible="true" weight="0.32995737" />
-      <window_info anchor="right" id="Database" order="6" weight="0.3315565" />
-      <window_info anchor="right" id="Maven" order="7" weight="0.32889125" />
+      <window_info anchor="right" id="CDI" order="5" weight="0.32782516" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3192964" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.38379532" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8665568" visible="true" weight="0.24626866" />
+      <window_info id="Structure" order="1" sideWeight="0.50080776" side_tool="true" weight="0.25" />
+      <window_info id="Persistence" order="2" sideWeight="0.50080776" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" sideWeight="0.50080776" side_tool="true" weight="0.25" />
+      <window_info id="EJB" order="8" sideWeight="0.50080776" side_tool="true" weight="0.25" />
+      <window_info id="JavaEE:App" order="9" sideWeight="0.50080776" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="10" sideWeight="0.13432837" side_tool="true" visible="true" weight="0.24626866" />
+      <window_info anchor="bottom" id="Database Console" order="0" sideWeight="0.49946696" />
+      <window_info anchor="bottom" id="Inspection Results" order="1" sideWeight="0.4989339" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" sideWeight="0.4989339" />
+      <window_info anchor="bottom" id="SQL Generator" order="4" sideWeight="0.49840087" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.8726013" visible="true" weight="0.32555556" />
+      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.49253732" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Application Servers" order="10" sideWeight="0.49520257" weight="0.3288889" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.12739871" side_tool="true" visible="true" weight="0.32555556" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.4989339" weight="0.3288889" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.45042643" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="17" sideWeight="0.49946696" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="CDI" order="5" weight="0.32782516" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.3192964" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.38379532" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -597,146 +955,720 @@
     <MESSAGE value="Starting commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Starting commit" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/interfaces/IUserServiceTest.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/interfaces/IUserServiceTest.java</url>
+          <line>132</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/interfaces/IUserServiceTest.java</url>
+          <line>155</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/interfaces/IUserServiceTest.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/models/UserGroup.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/DAO/UserDAO.java</url>
+          <line>15</line>
+          <properties class="DAO.UserDAO" method="createUser" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MyApplication.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/2.25.1/mockito-core-2.25.1.jar!/org/mockito/junit/MockitoJUnitRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        <state relative-caret-position="323">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HelloWorld.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/2.25.1/mockito-core-2.25.1.jar!/org/mockito/internal/runners/StrictRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="425">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/2.25.1/mockito-core-2.25.1.jar!/org/mockito/internal/runners/DefaultInternalRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#3288#3289#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a3d9b86a-9598-4e2c-944c-c77d715b7acd/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/dataSources.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="55" />
+        <state relative-caret-position="2941">
+          <caret line="226" column="16" selection-start-line="226" selection-start-column="16" selection-end-line="226" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/JPA_2_0_2_0.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/asda.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/META-INF/persistence.xml">
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/annotations/models/Group_.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="153">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/models/Like.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/glassfish-resources.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/056c3198-15a2-43c9-884f-71fd0fd71185/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/groupId:KwetterEE:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>groupId:KwetterEE:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="767.2673611111113" y="436.0">groupId:KwetterEE:1.0-SNAPSHOT</node>
+            <node x="1863.3923611111113" y="317.0">org.mockito:mockito-core:jar:2.25.1</node>
+            <node x="1866.662326388889" y="218.0">org.mockito:mockito-core:jar:2.25.1/net.bytebuddy:byte-buddy:jar:1.9.7</node>
+            <node x="1717.662326388889" y="218.0">org.mockito:mockito-core:jar:2.25.1/net.bytebuddy:byte-buddy-agent:jar:1.9.7</node>
+            <node x="1980.662326388889" y="218.0">org.mockito:mockito-core:jar:2.25.1/org.objenesis:objenesis:jar:2.6</node>
+            <node x="506.09230324074076" y="317.0">org.eclipse.persistence:eclipselink:jar:2.7.4</node>
+            <node x="912.5173611111113" y="79.0">org.eclipse.persistence:eclipselink:jar:2.7.4/org.eclipse.persistence:jakarta.persistence:jar:2.2.2</node>
+            <node x="204.0" y="218.0">org.eclipse.persistence:eclipselink:jar:2.7.4/org.eclipse.persistence:commonj.sdo:jar:2.1.1</node>
+            <node x="479.96730324074076" y="79.0">org.eclipse.persistence:org.eclipse.persistence.core:jar:2.7.4</node>
+            <node x="1073.4673032407409" y="0.0">org.eclipse.persistence:org.eclipse.persistence.core:jar:2.7.4/org.eclipse.persistence:org.eclipse.persistence.asm:jar:2.7.4</node>
+            <node x="1270.3423032407409" y="218.0">org.eclipse.persistence:org.eclipse.persistence.jpa:jar:2.7.4</node>
+            <node x="1329.234664351852" y="79.0">org.eclipse.persistence:org.eclipse.persistence.jpa:jar:2.7.4/org.eclipse.persistence:org.eclipse.persistence.antlr:jar:2.7.4</node>
+            <node x="1527.234664351852" y="79.0">org.eclipse.persistence:org.eclipse.persistence.jpa:jar:2.7.4/org.eclipse.persistence:org.eclipse.persistence.jpa.jpql:jar:2.7.4</node>
+            <node x="982.0923032407408" y="317.0">org.eclipse.persistence:org.eclipse.persistence.jpa.modelgen.processor:jar:2.7.4</node>
+            <node x="0.0" y="218.0">org.eclipse.persistence:org.eclipse.persistence.moxy:jar:2.7.4</node>
+            <node x="101.64236111111131" y="317.0">org.eclipse.persistence:org.eclipse.persistence.sdo:jar:2.7.4</node>
+            <node x="764.3923611111113" y="218.0">org.eclipse.persistence:org.eclipse.persistence.oracle:jar:2.7.4</node>
+            <node x="1497.162326388889" y="317.0">org.eclipse.persistence:org.eclipse.persistence.oracle.nosql:jar:2.7.4</node>
+            <node x="1514.662326388889" y="218.0">org.eclipse.persistence:org.eclipse.persistence.oracle.nosql:jar:2.7.4/org.eclipse.persistence:org.eclipse.persistence.nosql:jar:2.7.4</node>
+            <node x="1760.484664351852" y="79.0">org.eclipse.persistence:org.eclipse.persistence.oracle.nosql:jar:2.7.4/org.eclipse.persistence:org.eclipse.persistence.nosql:jar:2.7.4/jakarta.resource:jakarta.resource-api:jar:1.7.2</node>
+            <node x="1753.4846643518522" y="0.0">org.eclipse.persistence:org.eclipse.persistence.oracle.nosql:jar:2.7.4/org.eclipse.persistence:org.eclipse.persistence.nosql:jar:2.7.4/jakarta.resource:jakarta.resource-api:jar:1.7.2/jakarta.transaction:jakarta.transaction-api:jar:1.3.1</node>
+            <node x="783.0923032407408" y="317.0">org.eclipse.persistence:org.eclipse.persistence.jpars:jar:2.7.4</node>
+            <node x="413.3923611111113" y="218.0">org.eclipse.persistence:org.eclipse.persistence.dbws:jar:2.7.4</node>
+            <node x="613.0923032407408" y="317.0">mysql:mysql-connector-java:jar:5.1.21</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.eclipse.persistence:org.eclipse.persistence.dbws:jar:2.7.4" target="org.eclipse.persistence:org.eclipse.persistence.core:jar:2.7.4">
+              <point x="0.0" y="-14.5" />
+              <point x="504.3923611111113" y="198.0" />
+              <point x="557.4048032407408" y="198.0" />
+              <point x="-11.0625" y="14.5" />
+            </edge>
+            <edge source="org.eclipse.persistence:org.eclipse.persistence.oracle.nosql:jar:2.7.4/org.eclipse.persistence:org.eclipse.persistence.nosql:jar:2.7.4" target="org.eclipse.persistence:org.eclipse.persistence.jpa:jar:2.7.4/org.eclipse.persistence:org.eclipse.persistence.jpa.jpql:jar:2.7.4">
+              <point x="15.25" y="-14.5" />
+              <point x="1621.412326388889" y="178.0" />
+              <point x="1671.984664351852" y="178.0" />
+              <point x="48.25" y="14.5" />
+            </edge>
+            <edge source="org.eclipse.persistence:org.eclipse.persistence.oracle.nosql:jar:2.7.4/org.eclipse.persistence:org.eclipse.persistence.nosql:jar:2.7.4" target="org.eclipse.persistence:org.eclipse.persistence.core:jar:2.7.4/org.eclipse.persistence:org.eclipse.persistence.asm:jar:2.7.4">
+              <point x="45.75" y="-14.5" />
+              <point x="1651.912326388889" y="188.0" />
+              <point x="1730.734664351852" y="188.0" />
+              <point x="1730.734664351852" y="49.0" />
+              <point x="1227.4673032407409" y="49.0" />
+              <point x="66.0" y="14.5" />
+            </edge>
+            <edge source="org.eclipse.persistence:org.eclipse.persistence.jpa:jar:2.7.4" target="org.eclipse.persistence:org.eclipse.persistence.core:jar:2.7.4">
+              <point x="-68.0" y="-14.5" />
+              <point x="1287.3423032407409" y="178.0" />
+              <point x="623.7798032407408" y="178.0" />
+              <point x="55.3125" y="14.5" />
+            </edge>
+            <edge source="org.eclipse.persistence:org.eclipse.persistence.oracle:jar:2.7.4" target="org.eclipse.persistence:org.eclipse.persistence.core:jar:2.7.4">
+              <point x="-62.0" y="-14.5" />
+              <point x="795.3923611111113" y="188.0" />
+              <point x="601.6548032407408" y="188.0" />
+              <point x="33.1875" y="14.5" />
+            </edge>
+            <edge source="org.eclipse.persistence:org.eclipse.persistence.jpa:jar:2.7.4" target="org.eclipse.persistence:eclipselink:jar:2.7.4/org.eclipse.persistence:jakarta.persistence:jar:2.2.2">
+              <point x="-34.0" y="-14.5" />
+              <point x="1321.3423032407409" y="168.0" />
+              <point x="993.1423611111113" y="168.0" />
+              <point x="16.125" y="14.5" />
+            </edge>
+            <edge source="groupId:KwetterEE:1.0-SNAPSHOT" target="org.eclipse.persistence:org.eclipse.persistence.sdo:jar:2.7.4">
+              <point x="-31.5" y="-14.5" />
+              <point x="777.7673611111113" y="406.0" />
+              <point x="188.1423611111113" y="406.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.eclipse.persistence:org.eclipse.persistence.jpa.modelgen.processor:jar:2.7.4" target="org.eclipse.persistence:org.eclipse.persistence.core:jar:2.7.4">
+              <point x="-70.25" y="-14.5" />
+              <point x="1052.3423032407409" y="277.0" />
+              <point x="695.0173611111113" y="277.0" />
+              <point x="695.0173611111113" y="198.0" />
+              <point x="579.5298032407408" y="198.0" />
+              <point x="11.0625" y="14.5" />
+            </edge>
+            <edge source="groupId:KwetterEE:1.0-SNAPSHOT" target="org.mockito:mockito-core:jar:2.25.1">
+              <point x="38.5" y="-14.5" />
+              <point x="847.7673611111113" y="416.0" />
+              <point x="1915.3923611111113" y="416.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.eclipse.persistence:org.eclipse.persistence.oracle:jar:2.7.4" target="org.eclipse.persistence:eclipselink:jar:2.7.4/org.eclipse.persistence:jakarta.persistence:jar:2.2.2">
+              <point x="62.0" y="-14.5" />
+              <point x="919.3923611111113" y="198.0" />
+              <point x="928.6423611111113" y="198.0" />
+              <point x="-48.375" y="14.5" />
+            </edge>
+            <edge source="groupId:KwetterEE:1.0-SNAPSHOT" target="org.eclipse.persistence:eclipselink:jar:2.7.4">
+              <point x="-17.5" y="-14.5" />
+              <point x="791.7673611111113" y="386.0" />
+              <point x="549.5923032407408" y="386.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.eclipse.persistence:org.eclipse.persistence.oracle.nosql:jar:2.7.4/org.eclipse.persistence:org.eclipse.persistence.nosql:jar:2.7.4" target="org.eclipse.persistence:org.eclipse.persistence.jpa:jar:2.7.4/org.eclipse.persistence:org.eclipse.persistence.antlr:jar:2.7.4">
+              <point x="-15.25" y="-14.5" />
+              <point x="1590.912326388889" y="128.0" />
+              <point x="1462.734664351852" y="128.0" />
+              <point x="44.5" y="14.5" />
+            </edge>
+            <edge source="org.mockito:mockito-core:jar:2.25.1" target="org.mockito:mockito-core:jar:2.25.1/net.bytebuddy:byte-buddy:jar:1.9.7">
+              <point x="0.0" y="-14.5" />
+              <point x="1915.3923611111113" y="297.0" />
+              <point x="1913.662326388889" y="297.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.eclipse.persistence:org.eclipse.persistence.jpa:jar:2.7.4" target="org.eclipse.persistence:org.eclipse.persistence.jpa:jar:2.7.4/org.eclipse.persistence:org.eclipse.persistence.antlr:jar:2.7.4">
+              <point x="34.0" y="-14.5" />
+              <point x="1389.3423032407409" y="198.0" />
+              <point x="1373.734664351852" y="198.0" />
+              <point x="-44.5" y="14.5" />
+            </edge>
+            <edge source="org.eclipse.persistence:org.eclipse.persistence.oracle.nosql:jar:2.7.4/org.eclipse.persistence:org.eclipse.persistence.nosql:jar:2.7.4" target="org.eclipse.persistence:org.eclipse.persistence.oracle.nosql:jar:2.7.4/org.eclipse.persistence:org.eclipse.persistence.nosql:jar:2.7.4/jakarta.resource:jakarta.resource-api:jar:1.7.2">
+              <point x="76.25" y="-14.5" />
+              <point x="1682.412326388889" y="198.0" />
+              <point x="1828.484664351852" y="198.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="groupId:KwetterEE:1.0-SNAPSHOT" target="org.eclipse.persistence:org.eclipse.persistence.jpa:jar:2.7.4">
+              <point x="24.5" y="-14.5" />
+              <point x="833.7673611111113" y="396.0" />
+              <point x="1397.8423032407409" y="396.0" />
+              <point x="42.5" y="14.5" />
+            </edge>
+            <edge source="groupId:KwetterEE:1.0-SNAPSHOT" target="org.eclipse.persistence:org.eclipse.persistence.moxy:jar:2.7.4">
+              <point x="-38.5" y="-14.5" />
+              <point x="770.7673611111113" y="416.0" />
+              <point x="45.75" y="416.0" />
+              <point x="-45.75" y="14.5" />
+            </edge>
+            <edge source="org.eclipse.persistence:eclipselink:jar:2.7.4" target="org.eclipse.persistence:eclipselink:jar:2.7.4/org.eclipse.persistence:commonj.sdo:jar:2.1.1">
+              <point x="-21.75" y="-14.5" />
+              <point x="527.8423032407408" y="297.0" />
+              <point x="283.5" y="297.0" />
+              <point x="26.5" y="14.5" />
+            </edge>
+            <edge source="org.mockito:mockito-core:jar:2.25.1" target="org.mockito:mockito-core:jar:2.25.1/org.objenesis:objenesis:jar:2.6">
+              <point x="34.66666666666674" y="-14.5" />
+              <point x="1950.059027777778" y="297.0" />
+              <point x="2021.162326388889" y="297.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="groupId:KwetterEE:1.0-SNAPSHOT" target="org.eclipse.persistence:org.eclipse.persistence.oracle.nosql:jar:2.7.4">
+              <point x="31.5" y="-14.5" />
+              <point x="840.7673611111113" y="406.0" />
+              <point x="1606.162326388889" y="406.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.eclipse.persistence:org.eclipse.persistence.oracle.nosql:jar:2.7.4/org.eclipse.persistence:org.eclipse.persistence.nosql:jar:2.7.4" target="org.eclipse.persistence:org.eclipse.persistence.core:jar:2.7.4">
+              <point x="-76.25" y="-14.5" />
+              <point x="1529.912326388889" y="148.0" />
+              <point x="645.9048032407408" y="148.0" />
+              <point x="77.4375" y="14.5" />
+            </edge>
+            <edge source="org.eclipse.persistence:org.eclipse.persistence.sdo:jar:2.7.4" target="org.eclipse.persistence:org.eclipse.persistence.core:jar:2.7.4">
+              <point x="0.0" y="-14.5" />
+              <point x="188.1423611111113" y="297.0" />
+              <point x="193.5" y="297.0" />
+              <point x="193.5" y="178.0" />
+              <point x="513.1548032407408" y="178.0" />
+              <point x="-55.3125" y="14.5" />
+            </edge>
+            <edge source="org.eclipse.persistence:org.eclipse.persistence.jpa:jar:2.7.4" target="org.eclipse.persistence:org.eclipse.persistence.core:jar:2.7.4/org.eclipse.persistence:org.eclipse.persistence.asm:jar:2.7.4">
+              <point x="0.0" y="-14.5" />
+              <point x="1355.3423032407409" y="158.0" />
+              <point x="1300.109664351852" y="158.0" />
+              <point x="1300.109664351852" y="59.0" />
+              <point x="1183.4673032407409" y="59.0" />
+              <point x="22.0" y="14.5" />
+            </edge>
+            <edge source="groupId:KwetterEE:1.0-SNAPSHOT" target="org.eclipse.persistence:org.eclipse.persistence.core:jar:2.7.4">
+              <point x="-24.5" y="-14.5" />
+              <point x="784.7673611111113" y="396.0" />
+              <point x="320.5" y="396.0" />
+              <point x="320.5" y="188.0" />
+              <point x="535.2798032407408" y="188.0" />
+              <point x="-33.1875" y="14.5" />
+            </edge>
+            <edge source="org.eclipse.persistence:org.eclipse.persistence.oracle.nosql:jar:2.7.4" target="org.eclipse.persistence:org.eclipse.persistence.oracle.nosql:jar:2.7.4/org.eclipse.persistence:org.eclipse.persistence.nosql:jar:2.7.4">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.eclipse.persistence:org.eclipse.persistence.sdo:jar:2.7.4" target="org.eclipse.persistence:eclipselink:jar:2.7.4/org.eclipse.persistence:commonj.sdo:jar:2.1.1">
+              <point x="57.66666666666663" y="-14.5" />
+              <point x="245.80902777777794" y="297.0" />
+              <point x="230.5" y="297.0" />
+              <point x="-26.5" y="14.5" />
+            </edge>
+            <edge source="org.eclipse.persistence:org.eclipse.persistence.oracle.nosql:jar:2.7.4/org.eclipse.persistence:org.eclipse.persistence.nosql:jar:2.7.4" target="org.eclipse.persistence:eclipselink:jar:2.7.4/org.eclipse.persistence:jakarta.persistence:jar:2.2.2">
+              <point x="-45.75" y="-14.5" />
+              <point x="1560.412326388889" y="138.0" />
+              <point x="1025.3923611111113" y="138.0" />
+              <point x="48.375" y="14.5" />
+            </edge>
+            <edge source="groupId:KwetterEE:1.0-SNAPSHOT" target="org.eclipse.persistence:org.eclipse.persistence.dbws:jar:2.7.4">
+              <point x="-3.5" y="-14.5" />
+              <point x="805.7673611111113" y="366.0" />
+              <point x="772.5923032407408" y="366.0" />
+              <point x="772.5923032407408" y="287.0" />
+              <point x="504.3923611111113" y="287.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="groupId:KwetterEE:1.0-SNAPSHOT" target="org.eclipse.persistence:org.eclipse.persistence.jpars:jar:2.7.4">
+              <point x="3.5" y="-14.5" />
+              <point x="812.7673611111113" y="366.0" />
+              <point x="872.5923032407408" y="366.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.eclipse.persistence:org.eclipse.persistence.oracle.nosql:jar:2.7.4/org.eclipse.persistence:org.eclipse.persistence.nosql:jar:2.7.4/jakarta.resource:jakarta.resource-api:jar:1.7.2" target="org.eclipse.persistence:org.eclipse.persistence.oracle.nosql:jar:2.7.4/org.eclipse.persistence:org.eclipse.persistence.nosql:jar:2.7.4/jakarta.resource:jakarta.resource-api:jar:1.7.2/jakarta.transaction:jakarta.transaction-api:jar:1.3.1">
+              <point x="2.2737367544323206E-13" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.eclipse.persistence:org.eclipse.persistence.jpa:jar:2.7.4" target="org.eclipse.persistence:org.eclipse.persistence.jpa:jar:2.7.4/org.eclipse.persistence:org.eclipse.persistence.jpa.jpql:jar:2.7.4">
+              <point x="68.0" y="-14.5" />
+              <point x="1423.3423032407409" y="198.0" />
+              <point x="1575.484664351852" y="198.0" />
+              <point x="-48.25" y="14.5" />
+            </edge>
+            <edge source="org.eclipse.persistence:org.eclipse.persistence.moxy:jar:2.7.4" target="org.eclipse.persistence:org.eclipse.persistence.core:jar:2.7.4">
+              <point x="0.0" y="-14.5" />
+              <point x="91.5" y="168.0" />
+              <point x="491.02980324074076" y="168.0" />
+              <point x="-77.4375" y="14.5" />
+            </edge>
+            <edge source="org.eclipse.persistence:org.eclipse.persistence.sdo:jar:2.7.4" target="org.eclipse.persistence:org.eclipse.persistence.moxy:jar:2.7.4">
+              <point x="-57.66666666666663" y="-14.5" />
+              <point x="130.47569444444468" y="297.0" />
+              <point x="137.25" y="297.0" />
+              <point x="45.75" y="14.5" />
+            </edge>
+            <edge source="groupId:KwetterEE:1.0-SNAPSHOT" target="mysql:mysql-connector-java:jar:5.1.21">
+              <point x="-10.5" y="-14.5" />
+              <point x="798.7673611111113" y="376.0" />
+              <point x="687.5923032407408" y="376.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.mockito:mockito-core:jar:2.25.1" target="org.mockito:mockito-core:jar:2.25.1/net.bytebuddy:byte-buddy-agent:jar:1.9.7">
+              <point x="-34.66666666666674" y="-14.5" />
+              <point x="1880.7256944444446" y="297.0" />
+              <point x="1782.162326388889" y="297.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.eclipse.persistence:org.eclipse.persistence.jpa.modelgen.processor:jar:2.7.4" target="org.eclipse.persistence:org.eclipse.persistence.jpa:jar:2.7.4">
+              <point x="70.25" y="-14.5" />
+              <point x="1192.8423032407409" y="297.0" />
+              <point x="1312.8423032407409" y="297.0" />
+              <point x="-42.5" y="14.5" />
+            </edge>
+            <edge source="org.eclipse.persistence:eclipselink:jar:2.7.4" target="org.eclipse.persistence:eclipselink:jar:2.7.4/org.eclipse.persistence:jakarta.persistence:jar:2.2.2">
+              <point x="21.75" y="-14.5" />
+              <point x="571.3423032407408" y="297.0" />
+              <point x="960.8923611111113" y="297.0" />
+              <point x="-16.125" y="14.5" />
+            </edge>
+            <edge source="org.eclipse.persistence:org.eclipse.persistence.oracle:jar:2.7.4" target="org.eclipse.persistence:org.eclipse.persistence.core:jar:2.7.4/org.eclipse.persistence:org.eclipse.persistence.asm:jar:2.7.4">
+              <point x="0.0" y="-14.5" />
+              <point x="857.3923611111113" y="59.0" />
+              <point x="1139.4673032407409" y="59.0" />
+              <point x="-22.0" y="14.5" />
+            </edge>
+            <edge source="groupId:KwetterEE:1.0-SNAPSHOT" target="org.eclipse.persistence:org.eclipse.persistence.jpa.modelgen.processor:jar:2.7.4">
+              <point x="10.5" y="-14.5" />
+              <point x="819.7673611111113" y="376.0" />
+              <point x="1122.5923032407409" y="376.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.eclipse.persistence:org.eclipse.persistence.core:jar:2.7.4" target="org.eclipse.persistence:org.eclipse.persistence.core:jar:2.7.4/org.eclipse.persistence:org.eclipse.persistence.asm:jar:2.7.4">
+              <point x="0.0" y="-14.5" />
+              <point x="568.4673032407408" y="49.0" />
+              <point x="1095.4673032407409" y="49.0" />
+              <point x="-66.0" y="14.5" />
+            </edge>
+            <edge source="groupId:KwetterEE:1.0-SNAPSHOT" target="org.eclipse.persistence:org.eclipse.persistence.oracle:jar:2.7.4">
+              <point x="17.5" y="-14.5" />
+              <point x="826.7673611111113" y="386.0" />
+              <point x="1273.5923032407409" y="386.0" />
+              <point x="1273.5923032407409" y="267.0" />
+              <point x="857.3923611111113" y="267.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.43515850144092216" x="541.523178807947" y="145.17549668874165" />
+          <SelectedNodes>
+            <node>groupId:KwetterEE:1.0-SNAPSHOT</node>
+          </SelectedNodes>
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="20" />
+        <state relative-caret-position="239">
+          <caret line="71" selection-start-line="71" selection-end-line="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MyApplication.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/persistence/eclipselink/2.7.4/eclipselink-2.7.4.jar!/org/eclipse/persistence/internal/sessions/RepeatableWriteUnitOfWork.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="305" selection-start-line="305" selection-end-line="305" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/persistence/eclipselink/2.7.4/eclipselink-2.7.4.jar!/org/eclipse/persistence/internal/sessions/UnitOfWorkImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="2718" selection-start-line="2718" selection-end-line="2718" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/persistence/eclipselink/2.7.4/eclipselink-2.7.4.jar!/org/eclipse/persistence/internal/jpa/EntityManagerImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="378" selection-start-line="378" selection-end-line="378" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://056c3198-15a2-43c9-884f-71fd0fd71185/schema/kwetter/table/group">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/models/Group_.class">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#384#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HelloWorld.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="107">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/persistence/eclipselink/2.7.4/eclipselink-2.7.4.jar!/org/eclipse/persistence/descriptors/ClassDescriptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="2719" selection-start-line="2719" selection-end-line="2719" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/persistence/eclipselink/2.7.4/eclipselink-2.7.4.jar!/org/eclipse/persistence/internal/sessions/DatabaseSessionImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="470" selection-start-line="470" selection-end-line="470" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/persistence/eclipselink/2.7.4/eclipselink-2.7.4.jar!/org/eclipse/persistence/internal/jpa/EntityManagerFactoryProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="148" column="26" selection-start-line="148" selection-start-column="26" selection-end-line="148" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/persistence/eclipselink/2.7.4/eclipselink-2.7.4.jar!/org/eclipse/persistence/internal/jpa/EntityManagerSetupImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="461" selection-start-line="461" selection-end-line="461" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/persistence/eclipselink/2.7.4/eclipselink-2.7.4.jar!/org/eclipse/persistence/internal/jpa/EntityManagerFactoryDelegate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#4883#4884#0" expanded="true" />
+            <element signature="e#6064#6065#0" expanded="true" />
+            <element signature="e#6101#6102#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/persistence/eclipselink/2.7.4/eclipselink-2.7.4.jar!/org/eclipse/persistence/internal/jpa/EntityManagerFactoryImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="302" selection-start-line="302" selection-end-line="302" />
+          <folding>
+            <element signature="e#12153#12154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/persistence/eclipselink/2.7.4/eclipselink-2.7.4.jar!/org/eclipse/persistence/jpa/PersistenceProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="120" selection-start-line="120" selection-end-line="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/persistence/eclipselink/2.7.4/eclipselink-2.7.4.jar!/org/eclipse/persistence/internal/descriptors/InstantiationPolicy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/persistence/eclipselink/2.7.4/eclipselink-2.7.4.jar!/org/eclipse/persistence/internal/descriptors/ObjectBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="525" selection-start-line="525" selection-end-line="525" />
+          <folding>
+            <element signature="e#27924#27925#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/RunAfters.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://056c3198-15a2-43c9-884f-71fd0fd71185/schema/kwetter/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://056c3198-15a2-43c9-884f-71fd0fd71185/schema/kwetter/table/usergroup">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-213">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/models/UserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-39">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="-528">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1489#1490#0" expanded="true" />
+            <element signature="e#1514#1515#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Profile.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/IUserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Group.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        <state relative-caret-position="85">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/models/GroupTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        <state relative-caret-position="106">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/models/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="100" column="2" selection-start-line="100" selection-start-column="2" selection-end-line="100" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/RelationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/RelationDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/models/RelationTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/IModService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        <state relative-caret-position="34">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#1322#1323#0" expanded="true" />
+            <element signature="e#1339#1340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Relation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/UserGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/KweetService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="70" column="32" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#2714#2715#0" expanded="true" />
+            <element signature="e#2761#2762#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/ModService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
+            <element signature="e#1472#1473#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/KweetDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/Kweet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+        <state relative-caret-position="409">
+          <caret line="72" column="35" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/interfaces/IUserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2193">
+          <caret line="131" column="27" lean-forward="true" selection-start-line="131" selection-start-column="27" selection-end-line="131" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -745,15 +1677,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/models/KweetTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        <state relative-caret-position="1224">
+          <caret line="78" column="24" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Relation.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/interfaces/IKweetServiceTestIT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        <state relative-caret-position="34">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/IKweetDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/IKweetService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/IUserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/interfaces/IKweetServiceTestIT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="93" column="30" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1368#1375#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -763,11 +1733,11 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>KwetterEE:war exploded</last-edited>
+          <last-edited>KwetterEE:ear exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.34265736" />
                 <option value="0.5" />
               </list>
             </option>
@@ -776,11 +1746,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>EJB</last-edited>
+          <last-edited>EJB (KwetterEE)|EJB</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.34265736" />
               </list>
             </option>
           </splitter-proportions>
@@ -791,7 +1761,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.34265736" />
               </list>
             </option>
           </splitter-proportions>
@@ -803,7 +1773,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.34265736" />
               </list>
             </option>
           </splitter-proportions>
@@ -811,12 +1781,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>KwetterEE</last-edited>
+          <last-edited>Web|KwetterEE</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
-                <option value="0.6" />
+                <option value="0.34265736" />
               </list>
             </option>
           </splitter-proportions>
@@ -828,7 +1797,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.34265736" />
               </list>
             </option>
           </splitter-proportions>

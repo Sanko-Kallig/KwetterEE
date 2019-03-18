@@ -70,9 +70,10 @@ public class Kweet {
         return likers;
     }
 
-    public void setLikers(User user) throws Exception{
+    public void addLiker(User user){
         if (!likers.add(user))
-            throw new Exception("The user already liked this kweet.");
+            likers.remove(user);
     }
+
 
 }

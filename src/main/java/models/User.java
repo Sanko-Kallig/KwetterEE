@@ -5,7 +5,7 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 @Entity
-@Table(name = "kweetuser")
+@Table(name = "user")
 @NamedQueries({@NamedQuery(name = "user.all", query = "SELECT u FROM User u"),
         @NamedQuery(name = "user.getById", query = "SELECT u FROM User u WHERE u.id = :userid"),
         @NamedQuery(name = "user.getByName", query = "SELECT u FROM User u WHERE u.name = :username")})
@@ -23,14 +23,10 @@ public class User {
     private String web;
     @Column(name = "location")
     private String location;
-    @ManyToOne(targetEntity = Group.class, cascade = CascadeType.MERGE)
-    @JoinColumn(name="groupname", nullable = false)
-    private Group group;
     @Column(name = "password")
     private String password;
 
     public User() {
-        this.group = new Group();
     }
 
     public User(int id, String photo, String name, String bio, String web, String location, String password) throws NoSuchAlgorithmException {
@@ -39,8 +35,6 @@ public class User {
         this.name = name;
         this.bio = bio;
         this.web = web;
-        this.location = location;
-        this.group = new Group();
         this.password = toSha256(password);
     }
 
@@ -88,13 +82,6 @@ public class User {
         this.location = location;
     }
 
-    public Group getGroup() {
-        return group;
-    }
-
-    public void setGroup(Group group) {
-        this.group = group;
-    }
 
     public String getPassword() {
         return password;

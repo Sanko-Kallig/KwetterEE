@@ -10,15 +10,15 @@ import static org.junit.Assert.*;
  * Created by Joris on 6-3-2017.
  */
 public class GroupTest {
-    Group group1;
-    Group group2;
-    Group group3;
+    UserGroup group1;
+    UserGroup group2;
+    UserGroup group3;
 
     @Before
     public void setUp() {
-        group1 = new Group();
-        group2 = new Group();
-        group3 = new Group();
+        group1 = new UserGroup();
+        group2 = new UserGroup();
+        group3 = new UserGroup();
     }
 
 
